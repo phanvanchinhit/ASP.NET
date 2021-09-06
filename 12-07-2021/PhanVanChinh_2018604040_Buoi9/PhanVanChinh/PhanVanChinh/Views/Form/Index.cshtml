@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>TÍNH TIỀN ĐIỆN</h1>
+
+<table border="1" style="margin: auto;" width="60%">
+    <thead>
+        <th colspan="3" style="text-align: center;">TÍNH TIỀN ĐIỆN</th>
+    </thead>
+    <tbody>
+        <form action="/Form/TinhTien" method="post">
+            <tr>
+                <td>Họ tên chủ hộ: </td>
+                <td><input type="text" name="tenChuHo"/></td>
+                <td><input type="checkbox" name="hoUuTien" /> Hộ ưu tiên</td>
+            </tr>
+            <tr>
+                <td>Loại điện tiêu thụ: </td>
+                <td colspan="2">
+                    <select name="loaiDien">
+                        <option value="SinhHoat" selected>Sinh hoạt</option>
+                        <option value="KinhDoanh">Kinh doanh</option>
+                        <option value="SanXuat">Sản xuất</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Vào chỉ số cũ: </td>
+                <td colspan="2">
+                    <input type="number" name="soCu" />
+                </td>
+            </tr>
+            <tr>
+                <td>Vào chỉ số mới: </td>
+                <td colspan="2">
+                    <input type="number" name="soMoi" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center;"><input type="submit" value="TÍNH"/></td>
+            </tr>
+        </form>
+    </tbody>
+</table>
+

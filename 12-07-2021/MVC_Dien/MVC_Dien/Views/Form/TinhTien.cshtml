@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "TinhTien";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>THÔNG TIN HÓA ĐƠN</h1>
+
+<table border="1" style="margin: auto;" width="50%">
+    <tr>
+        <th>Tên chủ hộ: </th>
+        <td>@ViewBag.tenChuHo</td>
+    </tr>
+    <tr>
+        <th>Số điện tiêu thụ: </th>
+        <td>@ViewBag.soDien KW</td>
+    </tr>
+    <tr>
+        <th>Tiền phải trả:</th>
+        <td>@ViewBag.tongTien Đồng</td>
+    </tr>
+</table>
+
+<a href="/Form/Index">Nhập</a>
+

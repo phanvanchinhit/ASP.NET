@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PhanVanChinh",
+    "\\PhanVanChinh\\bin\\roslyn",
+    "\\PhanVanChinh\\Controllers",
+    "\\PhanVanChinh\\Models",
+    "\\PhanVanChinh\\Views",
+    "\\PhanVanChinh\\Views\\Home"
+  ],
+  "SelectedNode": "\\PhanVanChinh\\Models\\HoDan.cs",
+  "PreviewInSolutionExplorer": false
+}
